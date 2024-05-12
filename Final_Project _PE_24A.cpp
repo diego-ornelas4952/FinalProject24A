@@ -78,17 +78,17 @@ Estudiantes obtenerDatosEstudiante(char group) {
     cout << "\nGrupo: " << group << endl;
     cout << "Nombre del estudiante: ";
     getline(cin >> ws, student_name); // Lee toda la linea incluyendo espacios
-    cout << "Primer nombre del estudiante: ";
+    cout << "Apellido paterno del estudiante: ";
     cin >> studentF_name;
-    cout << "Segundo nombre del estudiante: ";
+    cout << "Apellido materno del estudiante: ";
     cin >> studentS_name;
     cout << "ID del estudiante: ";
     cin >> id_alumno;
     cout << "Nombre del pariente: ";
     getline(cin >> ws, relative_name); // Lee toda la linea incluyendo espacios
-    cout << "Primer nombre del pariente: ";
+    cout << "Apellido paterno del pariente: ";
     cin >> relativeF_name;
-    cout << "Segundo nombre del pariente: ";
+    cout << "Apellido materno del pariente: ";
     cin >> relativeS_name;
     cout << "Vinculo familiar: ";
     getline(cin >> ws, family_link);
@@ -167,11 +167,12 @@ while(ciclo){
     }   // Fin ciclo general del programa
 return 0;
 }   // Fin main
+
 /********************************************* 
         INTEGRANTES: 
         Eduardo Dominguez Padilla
         Diego Josuan Ornelas Duran
         Gerardo Esqueda Padilla
         Diego Munoz
-        
+
 **********************************************/
