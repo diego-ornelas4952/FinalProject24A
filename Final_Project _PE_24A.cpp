@@ -50,9 +50,11 @@ public:
         // Verifica si el archivo se abrió correctamente
         if (archivo.is_open()) {
             // Escribe los datos del estudiante en el archivo
+            archivo << "\t\t\t  DATOS DEL ESTUDIANTE" << endl;
             archivo << "GRUPO: " << group << endl;
             archivo << "NOMBRE DEL ESTUDIANTE: \t\t" << student_name << " " << studentF_name << " " << studentS_name << endl;
             archivo << "ID DEL ESTUDIANTE: \t\t\t" << id_alumno << endl;
+            archivo << "\t\t\tDATOS DE CONTACTO DEL FAMILIAR" << endl;
             archivo << "NOMBRE DEL PARIENTE: \t\t" << relative_name << " " << relativeF_name << " " << relativeS_name << endl;
             archivo << "VINCULO FAMILIAR: \t\t\t" << family_link << endl;
             archivo << "NUMERO DE TELEFONO: \t\t" << phone_str << endl;
