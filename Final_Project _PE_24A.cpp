@@ -100,6 +100,55 @@ Estudiantes obtenerDatosEstudiante(char group) {
     // Crear y retornar un objeto Estudiantes con los datos proporcionados por el usuario
     return Estudiantes(group, student_name, studentF_name, studentS_name, id_alumno, relative_name, relativeF_name, relativeS_name, family_link, phone_str);
 }
+//función para comprobar si el estudiante ingresado esta en el archivo
+Estudiantes* buscarEstudiantePorNombre(string nombre, Estudiantes* grupo) {
+    // Recorre el grupo de estudiantes para buscar el nombre proporcionado
+    for (int i = 0; i < sizeof(grupo)/sizeof(grupo[0]); ++i) {
+        if (grupo[i].student_name == nombre) {
+            return &grupo[i]; // Devuelve el puntero al estudiante encontrado
+        }
+    }
+    return nullptr; // Si no se encuentra el estudiante, devuelve nullptr
+}
+
+// Función para modificar un dato del estudiante
+void modificarDatoEstudiante(Estudiantes* estudiante) {
+    char opcion;
+    cout << "\nSeleccione el dato que desea modificar: " << endl;
+    cout << "a. Nombre del estudiante" << endl;
+    cout << "b. ID del estudiante" << endl;
+    cout << "c. Nombre del pariente" << endl;
+    cout << "d. Vínculo familiar" << endl;
+    cout << "e. Número de teléfono" << endl;
+    cout << "Ingrese su opción: ";
+    cin >> opcion;
+
+    // Implementa la lógica para modificar el dato seleccionado
+    switch(opcion) {
+        case 'a':
+            cout << "Nuevo nombre del estudiante: ";
+            cin >> estudiante->student_name;
+            break;
+        case 'b':
+            cout << "Nuevo ID del estudiante: ";
+            cin >> estudiante->id_alumno;
+            break;
+        case 'c':
+            cout << "Nuevo nombre del pariente: ";
+            cin >> estudiante->relative_name;
+            break;
+        case 'd':
+            cout << "Nuevo vínculo familiar: ";
+            cin >> estudiante->family_link;
+            break;
+        case 'e':
+            cout << "Nuevo número de teléfono: ";
+            cin >> estudiante->phone_str;
+            break;
+        default:
+            cout << "Opción inválida." << endl;
+    }
+}
 
 bool ciclo = true;
 char op_switch, group_switch;
@@ -158,6 +207,18 @@ while(ciclo){
             }   // Fin validar si es letra
             system("cls");
         break;  // Fin case 1
+            case '3': //Case 3 para modificar los datos principales del estudiante...
+            cout << "Ingrese el nombre del estudiante: ";
+                string nombre_estudiante;
+                cin >> nombre_estudiante;
+                Estudiantes* estudiante = buscarEstudiantePorNombre(nombre_estudiante, grupo); // Busca el estudiante por nombre
+                if (estudiante != nullptr) {
+                    modificarDatoEstudiante(estudiante); // Llama a la función para modificar los datos del estudiante encontrado
+                    cout << "Los datos se han modificado correctamente." << endl;
+                } else {
+                    cout << "Estudiante no encontrado." << endl;
+                }
+                break; //fin del case 3
         default:
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
             cout << "Opcion invalida, seleccione una opcion correcta..." << endl;
