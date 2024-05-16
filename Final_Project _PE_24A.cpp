@@ -139,8 +139,9 @@ char op_switch, group_switch;
 
 int main(){
 
-Estudiante nuevo_estudiante;
+    Estudiante nuevo_estudiante;
 
+<<<<<<< HEAD
 while(ciclo){
     cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
     cout << "\t1. Agregar estudiantes" << endl;
@@ -208,13 +209,92 @@ while(ciclo){
             cin.ignore();
             cin.get();
             system("cls");
+=======
+/*Estudiantes grupoA;
+Estudiantes grupoB;
+Estudiantes grupoC;*/
+
+    while(ciclo){
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+        cout << "\t1. Agregar estudiantes" << endl;
+        cout << "Seleccione una opcion: ";
+        cin >> op_switch;
+        system("cls");
+
+        switch(op_switch){
+            case '1': // Case 1: Agregar estudiantes
+                cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                cout << "//Agregar estudiantes" << endl;
+                cout << "\nCompleta los siguientes campos para registrar los datos del estudiante en nuestro sistema." << endl;
+                cout << "Ingrese el grupo al que pertenece el alumno (A, B, C): ";
+                cin >> group_switch;
+                if(isalpha(group_switch) && islower(group_switch)){
+                    group_switch = toupper(group_switch);
+                }
+                if(isalpha(group_switch)){  // Validar si es letra
+                    switch(group_switch){   //  Switch para ingresar el grupo del estudiante
+                        case 'A':
+                            // Datos del grupo A de estudiantes
+                            nuevo_estudiante = obtenerDatosEstudiante('A');
+                            nuevo_estudiante.guardar_datos("Group_A.txt");
+                            /*grupoA = obtenerDatosEstudiante('A');*/
+                            /*grupoA.guardar_datos("Group_A.txt");*/
+                            cin.ignore();
+                            break;
+                        case 'B':
+                            // Datos del grupo B de estudiantes
+                            nuevo_estudiante = obtenerDatosEstudiante('B');
+                            nuevo_estudiante.guardar_datos("Group_B.txt");
+                            /*grupoB = obtenerDatosEstudiante('B');
+                            grupoB.guardar_datos("Group_B.txt");*/
+                            cin.ignore();
+                            break;
+                        case 'C':
+                            // Datos del grupo C de estudiantes
+                            nuevo_estudiante = obtenerDatosEstudiante('B');
+                            nuevo_estudiante.guardar_datos("Group_C.txt");
+                            /*grupoC = obtenerDatosEstudiante('C');
+                            grupoC.guardar_datos("Group_C.txt");*/
+                            cin.ignore();
+                            break;
+                        default:
+                            system("cls");
+                            cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                            cout << "Grupo invalido, seleccione una opcion correcta..." << endl;
+                            cout << "Presione enter, para continuar...";
+                            cin.ignore();
+                            cin.get();
+                    }   // Fin switch grupo
+                }   // Fin validar si es letra
+                system("cls");
+                break;  // Fin case 1
+                /*case '3': //Case 3 para modificar los datos principales del estudiante...
+                cout << "Ingrese el nombre del estudiante: ";
+                    string nombre_estudiante;
+                    cin >> nombre_estudiante;
+                    Estudiantes* estudiante = buscarEstudiantePorNombre(nombre_estudiante, grupo); // Busca el estudiante por nombre
+                    if (estudiante != nullptr) {
+                        modificarDatoEstudiante(estudiante); // Llama a la función para modificar los datos del estudiante encontrado
+                        cout << "Los datos se han modificado correctamente." << endl;
+                    } else {
+                        cout << "Estudiante no encontrado." << endl;
+                    }
+                    break; //fin del case 3*/
+            default:
+                cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                cout << "Opcion invalida, seleccione una opcion correcta..." << endl;
+                cout << "Presione enter, para continuar...";
+                cin.ignore();
+                cin.get();
+                system("cls");
+>>>>>>> 8b2a0b45bd325b47f5a77c6e11f9fb47271da790
         }   // Fin switch principal del programa
     }   // Fin ciclo general del programa
-return 0;
+    return 0;
 }   // Fin main
 
-/********************************************* 
-        INTEGRANTES: 
+/*********************************************
+        INTEGRANTES:
         Eduardo Dominguez Padilla
         Diego Josuan Ornelas Duran
         Gerardo Esqueda Padilla
