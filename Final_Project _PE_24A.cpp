@@ -83,98 +83,11 @@ Estudiante obtenerDatosEstudiante(char grupo) {
 
     return estudiante;
 }
-/*class Estudiantes {
-private:
-    // Atributos
-    char group;
-    string student_name;
-    string studentF_name;
-    string studentS_name;
-    int id_alumno;
-    string relative_name;
-    string relativeF_name;
-    string relativeS_name;
-    string family_link;
-    string phone_str;
 
-public:
-    // Constructor por defecto
-    Estudiantes() {}
-    // Constructor con parametros
-    Estudiantes(char grp, string std_name, string stdF_name, string stdS_name, int id, string rel_name, string relF_name, string relS_name, string fam_link, string phone) {
-        group = grp;
-        student_name = std_name;
-        studentF_name = stdF_name;
-        studentS_name = stdS_name;
-        id_alumno = id;
-        relative_name = rel_name;
-        relativeF_name = relF_name;
-        relativeS_name = relS_name;
-        family_link = fam_link;
-        phone_str = phone;
-    }
-
-    // Método para guardar los datos en un archivo de texto
-    void guardar_datos(string nombre_archivo) {
-        ofstream archivo(nombre_archivo, ios::app); // Abre el archivo en modo de adición
-
-        // Verifica si el archivo se abrió correctamente
-        if (archivo.is_open()) {
-            // Escribe los datos del estudiante en el archivo
-            archivo << "\t\t\t  DATOS DEL ESTUDIANTE" << endl;
-            archivo << "GRUPO: " << group << endl;
-            archivo << "NOMBRE DEL ESTUDIANTE: \t\t" << student_name << " " << studentF_name << " " << studentS_name << endl;
-            archivo << "ID DEL ESTUDIANTE: \t\t\t" << id_alumno << endl;
-            archivo << "\t\t\tDATOS DE CONTACTO DEL FAMILIAR" << endl;
-            archivo << "NOMBRE DEL PARIENTE: \t\t" << relative_name << " " << relativeF_name << " " << relativeS_name << endl;
-            archivo << "VINCULO FAMILIAR: \t\t\t" << family_link << endl;
-            archivo << "NUMERO DE TELEFONO: \t\t" << phone_str << endl;
-            archivo << "------------------------------------------------" << endl;
-
-            // Cierra el archivo
-            archivo.close();
-            cout << "Los datos se han guardado exitosamente en el archivo " << nombre_archivo;
-        } else {
-            // Si hay un error al abrir el archivo
-            cout << "Error al abrir el archivo " << nombre_archivo << endl;
-        }
-    }
-    // Declaración de función amiga para permitir el acceso a la función obtenerDatosEstudiante()
-    friend Estudiantes obtenerDatosEstudiante();
-};
-
-// Función para solicitar los datos del estudiante al usuario
-Estudiantes obtenerDatosEstudiante(char group) {
-    string student_name, studentF_name, studentS_name, relative_name, relativeF_name, relativeS_name, family_link, phone_str;
-    int id_alumno;
-
-    cout << "\nGrupo: " << group << endl;
-    cout << "Nombre del estudiante: ";
-    getline(cin >> ws, student_name); // Lee toda la linea incluyendo espacios
-    cout << "Apellido paterno del estudiante: ";
-    cin >> studentF_name;
-    cout << "Apellido materno del estudiante: ";
-    cin >> studentS_name;
-    cout << "ID del estudiante: ";
-    cin >> id_alumno;
-    cout << "Nombre del pariente: ";
-    getline(cin >> ws, relative_name); // Lee toda la linea incluyendo espacios
-    cout << "Apellido paterno del pariente: ";
-    cin >> relativeF_name;
-    cout << "Apellido materno del pariente: ";
-    cin >> relativeS_name;
-    cout << "Vinculo familiar: ";
-    getline(cin >> ws, family_link);
-    cout << "Numero de telefono: ";
-    getline(cin >> ws, phone_str); // Leer toda la línea, incluidos los espacios
-
-    // Crear y retornar un objeto Estudiantes con los datos proporcionados por el usuario
-    return Estudiantes(group, student_name, studentF_name, studentS_name, id_alumno, relative_name, relativeF_name, relativeS_name, family_link, phone_str);
-}*/
-/*//función para comprobar si el estudiante ingresado esta en el archivo
-Estudiantes* buscarEstudiantePorNombre(string nombre, Estudiantes* grupo) {
+//función para comprobar si el estudiante ingresado esta en el archivo
+Estudiante* buscarEstudiantePorNombre(string nombre, Estudiante* grupo) {
     // Recorre el grupo de estudiantes para buscar el nombre proporcionado
-    for (int i = 0; i < sizeof(grupo)/sizeof(grupo[0]); ++i) {
+    for (unsigned int i = 0; i < sizeof(grupo)/sizeof(grupo[0]); ++i) {
         if (grupo[i].student_name == nombre) {
             return &grupo[i]; // Devuelve el puntero al estudiante encontrado
         }
@@ -183,7 +96,7 @@ Estudiantes* buscarEstudiantePorNombre(string nombre, Estudiantes* grupo) {
 }
 
 // Función para modificar un dato del estudiante
-void modificarDatoEstudiante(Estudiantes* estudiante) {
+void modificarDatoEstudiante(Estudiante* estudiante) {
     char opcion;
     cout << "\nSeleccione el dato que desea modificar: " << endl;
     cout << "a. Nombre del estudiante" << endl;
@@ -219,7 +132,7 @@ void modificarDatoEstudiante(Estudiantes* estudiante) {
         default:
             cout << "Opción inválida." << endl;
     }
-}*/
+}
 
 bool ciclo = true;
 char op_switch, group_switch;
@@ -227,10 +140,6 @@ char op_switch, group_switch;
 int main(){
 
 Estudiante nuevo_estudiante;
-
-/*Estudiantes grupoA;
-Estudiantes grupoB;
-Estudiantes grupoC;*/
 
 while(ciclo){
     cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
@@ -255,24 +164,18 @@ while(ciclo){
                         // Datos del grupo A de estudiantes
                         nuevo_estudiante = obtenerDatosEstudiante('A');
                         nuevo_estudiante.guardar_datos("Group_A.txt");
-                        /*grupoA = obtenerDatosEstudiante('A');*/
-                        /*grupoA.guardar_datos("Group_A.txt");*/
                         cin.ignore();
                     break;
                     case 'B':
                         // Datos del grupo B de estudiantes
                         nuevo_estudiante = obtenerDatosEstudiante('B');
                         nuevo_estudiante.guardar_datos("Group_B.txt");
-                        /*grupoB = obtenerDatosEstudiante('B');
-                        grupoB.guardar_datos("Group_B.txt");*/
                         cin.ignore();
                     break;
                     case 'C':
                         // Datos del grupo C de estudiantes
                         nuevo_estudiante = obtenerDatosEstudiante('B');
                         nuevo_estudiante.guardar_datos("Group_C.txt");
-                        /*grupoC = obtenerDatosEstudiante('C');
-                        grupoC.guardar_datos("Group_C.txt");*/
                         cin.ignore();
                     break;
                     default:
@@ -286,18 +189,18 @@ while(ciclo){
             }   // Fin validar si es letra
             system("cls");
         break;  // Fin case 1
-            /*case '3': //Case 3 para modificar los datos principales del estudiante...
+            case '3': //Case 3 para modificar los datos principales del estudiante...
             cout << "Ingrese el nombre del estudiante: ";
                 string nombre_estudiante;
                 cin >> nombre_estudiante;
-                Estudiantes* estudiante = buscarEstudiantePorNombre(nombre_estudiante, grupo); // Busca el estudiante por nombre
+                Estudiante* estudiante = buscarEstudiantePorNombre(nombre_estudiante, grupo); // Busca el estudiante por nombre
                 if (estudiante != nullptr) {
                     modificarDatoEstudiante(estudiante); // Llama a la función para modificar los datos del estudiante encontrado
                     cout << "Los datos se han modificado correctamente." << endl;
                 } else {
                     cout << "Estudiante no encontrado." << endl;
                 }
-                break; //fin del case 3*/
+                break; //fin del case 3
         default:
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
             cout << "Opcion invalida, seleccione una opcion correcta..." << endl;
@@ -316,5 +219,6 @@ return 0;
         Diego Josuan Ornelas Duran
         Gerardo Esqueda Padilla
         Diego Munoz
+        chat gpt 3.5
 
 **********************************************/
