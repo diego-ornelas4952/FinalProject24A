@@ -11,8 +11,79 @@
 #include <vector>
 using namespace std;
 
+// Estructura para representar a un familiar
+struct Familiar {
+    string nombre;
+    string apellido_paterno;
+    string apellido_materno;
+    string vinculo_familiar;
+    string numero_telefono;
+};
 
-class Estudiantes {
+// Estructura para representar a un estudiante
+struct Estudiante {
+    char grupo;
+    string nombre;
+    string apellido_paterno;
+    string apellido_materno;
+    int id;
+    Familiar familiar;
+
+    // Método para guardar los datos del estudiante en un archivo de texto
+    void guardar_datos(string nombre_archivo) {
+        ofstream archivo(nombre_archivo, ios::app); // Abre el archivo en modo de adición
+
+        // Verifica si el archivo se abrió correctamente
+        if (archivo.is_open()) {
+            // Escribe los datos del estudiante en el archivo
+            archivo << "\t\t\t  DATOS DEL ESTUDIANTE" << endl;
+            archivo << "GRUPO: " << grupo << endl;
+            archivo << "NOMBRE DEL ESTUDIANTE: \t\t" << nombre << " " << apellido_paterno << " " << apellido_materno << endl;
+            archivo << "ID DEL ESTUDIANTE: \t\t\t" << id << endl;
+            archivo << "\t\t\tDATOS DE CONTACTO DEL FAMILIAR" << endl;
+            archivo << "NOMBRE DEL PARIENTE: \t\t" << familiar.nombre << " " << familiar.apellido_paterno << " " << familiar.apellido_materno << endl;
+            archivo << "VINCULO FAMILIAR: \t\t\t" << familiar.vinculo_familiar << endl;
+            archivo << "NUMERO DE TELEFONO: \t\t" << familiar.numero_telefono << endl;
+            archivo << "------------------------------------------------" << endl;
+
+            // Cierra el archivo
+            archivo.close();
+            cout << "Los datos se han guardado exitosamente en el archivo " << nombre_archivo;
+        } else {
+            // Si hay un error al abrir el archivo
+            cout << "Error al abrir el archivo " << nombre_archivo << endl;
+        }
+    }
+};
+
+// Función para solicitar los datos del estudiante al usuario
+Estudiante obtenerDatosEstudiante(char grupo) {
+    Estudiante estudiante;
+    estudiante.grupo = grupo;
+
+    cout << "\nGrupo: " << grupo << endl;
+    cout << "Nombre del estudiante: ";
+    getline(cin >> ws, estudiante.nombre); // Lee toda la línea incluyendo espacios
+    cout << "Apellido paterno del estudiante: ";
+    cin >> estudiante.apellido_paterno;
+    cout << "Apellido materno del estudiante: ";
+    cin >> estudiante.apellido_materno;
+    cout << "ID del estudiante: ";
+    cin >> estudiante.id;
+    cout << "Nombre del pariente: ";
+    getline(cin >> ws, estudiante.familiar.nombre); // Lee toda la línea incluyendo espacios
+    cout << "Apellido paterno del pariente: ";
+    cin >> estudiante.familiar.apellido_paterno;
+    cout << "Apellido materno del pariente: ";
+    cin >> estudiante.familiar.apellido_materno;
+    cout << "Vinculo familiar: ";
+    getline(cin >> ws, estudiante.familiar.vinculo_familiar);
+    cout << "Numero de telefono: ";
+    getline(cin >> ws, estudiante.familiar.numero_telefono); // Leer toda la línea, incluidos los espacios
+
+    return estudiante;
+}
+/*class Estudiantes {
 private:
     // Atributos
     char group;
@@ -99,8 +170,8 @@ Estudiantes obtenerDatosEstudiante(char group) {
 
     // Crear y retornar un objeto Estudiantes con los datos proporcionados por el usuario
     return Estudiantes(group, student_name, studentF_name, studentS_name, id_alumno, relative_name, relativeF_name, relativeS_name, family_link, phone_str);
-}
-//función para comprobar si el estudiante ingresado esta en el archivo
+}*/
+/*//función para comprobar si el estudiante ingresado esta en el archivo
 Estudiantes* buscarEstudiantePorNombre(string nombre, Estudiantes* grupo) {
     // Recorre el grupo de estudiantes para buscar el nombre proporcionado
     for (int i = 0; i < sizeof(grupo)/sizeof(grupo[0]); ++i) {
@@ -148,16 +219,18 @@ void modificarDatoEstudiante(Estudiantes* estudiante) {
         default:
             cout << "Opción inválida." << endl;
     }
-}
+}*/
 
 bool ciclo = true;
 char op_switch, group_switch;
 
 int main(){
 
-Estudiantes grupoA;
+Estudiante nuevo_estudiante;
+
+/*Estudiantes grupoA;
 Estudiantes grupoB;
-Estudiantes grupoC;
+Estudiantes grupoC;*/
 
 while(ciclo){
     cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
@@ -180,20 +253,26 @@ while(ciclo){
                 switch(group_switch){   //  Switch para ingresar el grupo del estudiante
                     case 'A':
                         // Datos del grupo A de estudiantes
-                        grupoA = obtenerDatosEstudiante('A');
-                        grupoA.guardar_datos("Group_A.txt");
+                        nuevo_estudiante = obtenerDatosEstudiante('A');
+                        nuevo_estudiante.guardar_datos("Group_A.txt");
+                        /*grupoA = obtenerDatosEstudiante('A');*/
+                        /*grupoA.guardar_datos("Group_A.txt");*/
                         cin.ignore();
                     break;
                     case 'B':
                         // Datos del grupo B de estudiantes
-                        grupoB = obtenerDatosEstudiante('B');
-                        grupoB.guardar_datos("Group_B.txt");
+                        nuevo_estudiante = obtenerDatosEstudiante('B');
+                        nuevo_estudiante.guardar_datos("Group_B.txt");
+                        /*grupoB = obtenerDatosEstudiante('B');
+                        grupoB.guardar_datos("Group_B.txt");*/
                         cin.ignore();
                     break;
                     case 'C':
                         // Datos del grupo C de estudiantes
-                        grupoC = obtenerDatosEstudiante('C');
-                        grupoC.guardar_datos("Group_C.txt");
+                        nuevo_estudiante = obtenerDatosEstudiante('B');
+                        nuevo_estudiante.guardar_datos("Group_C.txt");
+                        /*grupoC = obtenerDatosEstudiante('C');
+                        grupoC.guardar_datos("Group_C.txt");*/
                         cin.ignore();
                     break;
                     default:
@@ -207,7 +286,7 @@ while(ciclo){
             }   // Fin validar si es letra
             system("cls");
         break;  // Fin case 1
-            case '3': //Case 3 para modificar los datos principales del estudiante...
+            /*case '3': //Case 3 para modificar los datos principales del estudiante...
             cout << "Ingrese el nombre del estudiante: ";
                 string nombre_estudiante;
                 cin >> nombre_estudiante;
@@ -218,7 +297,7 @@ while(ciclo){
                 } else {
                     cout << "Estudiante no encontrado." << endl;
                 }
-                break; //fin del case 3
+                break; //fin del case 3*/
         default:
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
             cout << "Opcion invalida, seleccione una opcion correcta..." << endl;
