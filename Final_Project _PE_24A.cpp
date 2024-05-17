@@ -26,6 +26,8 @@ struct Estudiante {
     string nombre;
     string apellido_paterno;
     string apellido_materno;
+    string calificaciones;
+    string materias;
     int id;
     Familiar familiar;
 
@@ -84,7 +86,7 @@ Estudiante obtenerDatosEstudiante(char grupo) {
     return estudiante;
 }
 
-//función para comprobar si el estudiante ingresado esta en el archivo
+/*//función para comprobar si el estudiante ingresado esta en el archivo
 Estudiante* buscarEstudiantePorNombre(string nombre, Estudiante* grupo) {
     // Recorre el grupo de estudiantes para buscar el nombre proporcionado
     for (unsigned int i = 0; i < sizeof(grupo)/sizeof(grupo[0]); ++i) {
@@ -132,7 +134,7 @@ void modificarDatoEstudiante(Estudiante* estudiante) {
         default:
             cout << "Opción inválida." << endl;
     }
-}
+}*/
 
 bool ciclo = true;
 char op_switch, group_switch;
@@ -189,7 +191,7 @@ while(ciclo){
             }   // Fin validar si es letra
             system("cls");
         break;  // Fin case 1
-            case '3': //Case 3 para modificar los datos principales del estudiante...
+            /*case '3': //Case 3 para modificar los datos principales del estudiante...
             cout << "Ingrese el nombre del estudiante: ";
                 string nombre_estudiante;
                 cin >> nombre_estudiante;
@@ -200,7 +202,7 @@ while(ciclo){
                 } else {
                     cout << "Estudiante no encontrado." << endl;
                 }
-                break; //fin del case 3
+                break; //fin del case 3*/
         default:
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
             cout << "Opcion invalida, seleccione una opcion correcta..." << endl;
