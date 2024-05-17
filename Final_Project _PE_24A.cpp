@@ -19,6 +19,7 @@ struct Familiar {
     string vinculo_familiar;
     string numero_telefono;
 };
+//hola
 
 // Estructura para representar a un estudiante
 struct Estudiante {
