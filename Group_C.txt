@@ -1,0 +1,1954 @@
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		Diego Munoz Cisneros
+ID DEL ESTUDIANTE: 			1122
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		dffs fsfs fsf
+VINCULO FAMILIAR: 			dfs
+NUMERO DE TELEFONO: 		33
+			CALIFICACIONES
+Calculo: 0
+Espanol: 0
+Programacion: 0
+Geografia: 0
+Historia: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		Gerardo Esqueda Padilla 
+ID DEL ESTUDIANTE: 			2211
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		sfsf fsfs dcs
+VINCULO FAMILIAR: 			fsd
+NUMERO DE TELEFONO: 		232
+			CALIFICACIONES
+Calculo: 0
+Espanol: 0
+Programacion: 0
+Geografia: 0
+Historia: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: B
+NOMBRE DEL ESTUDIANTE: 		diego dfs dfs
+ID DEL ESTUDIANTE: 			212
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		da da da
+VINCULO FAMILIAR: 			ad
+NUMERO DE TELEFONO: 		211
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		Diego Munoz Cisneros
+ID DEL ESTUDIANTE: 			2211
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		afs fsf sf
+VINCULO FAMILIAR: 			dfs
+NUMERO DE TELEFONO: 		2131
+CALIFICACIONES: 43 43 34 23 23 
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		diego munoz cisneros
+ID DEL ESTUDIANTE: 			2211
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		oscar da as
+VINCULO FAMILIAR: 			ds
+NUMERO DE TELEFONO: 		32
+CALIFICACIONES: 
+Español: 43
+Cálculo: 22
+Historia: 54
+Geografía: 32
+Programación: 45
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		benito adsd sdd
+ID DEL ESTUDIANTE: 			23
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		adc sfsd dsf
+VINCULO FAMILIAR: 			fsf
+NUMERO DE TELEFONO: 		sdf
+CALIFICACIONES: 
+Español: 32
+Cálculo: 23
+Historia: 32
+Geografía: 32
+Programación: 23
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		juanito sf sf
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		sfs dsf fds
+VINCULO FAMILIAR: 			fs
+NUMERO DE TELEFONO: 		323
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		  
+ID DEL ESTUDIANTE: 			2222
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		  
+VINCULO FAMILIAR: 			
+NUMERO DE TELEFONO: 		
+CALIFICACIONES: 
+Español: 0
+Cálculo: 0
+Historia: 0
+Geografía: 0
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: C
+NOMBRE DEL ESTUDIANTE: 		juan asa dsa
+ID DEL ESTUDIANTE: 			23
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		das dsa sd
+VINCULO FAMILIAR: 			d
+NUMERO DE TELEFONO: 		21
+CALIFICACIONES: 
+Español: 32
+Cálculo: 32
+Historia: 12
+Geografía: 32
+Programación: 23
+------------------------------------------------

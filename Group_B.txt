@@ -1,0 +1,39 @@
+			  DATOS DEL ESTUDIANTE
+GRUPO: B
+NOMBRE DEL ESTUDIANTE: 		fd fd df
+ID DEL ESTUDIANTE: 			3233
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		csdc dcs cs
+VINCULO FAMILIAR: 			vd
+NUMERO DE TELEFONO: 		32223
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: B
+NOMBRE DEL ESTUDIANTE: 		fdfs fs fs
+ID DEL ESTUDIANTE: 			213
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		sdfsf sdf fs
+VINCULO FAMILIAR: 			fd
+NUMERO DE TELEFONO: 		32
+CALIFICACIONES: 
+Español: 100
+Cálculo: 21
+Historia: 21
+Geografía: 2
+Programación: 0
+------------------------------------------------
+			  DATOS DEL ESTUDIANTE
+GRUPO: B
+NOMBRE DEL ESTUDIANTE: 		fsf sfsf fs
+ID DEL ESTUDIANTE: 			2
+			DATOS DE CONTACTO DEL FAMILIAR
+NOMBRE DEL PARIENTE: 		ds fs dfs
+VINCULO FAMILIAR: 			fs
+NUMERO DE TELEFONO: 		32
+CALIFICACIONES: 
+Español: 3
+Cálculo: 3
+Historia: 2
+Geografía: 3
+Programación: 4
+------------------------------------------------
