@@ -5,6 +5,7 @@
         PROFESOR: Sergio Franco Casillas
         DESCRIPCION: Programa para universidad de prestigio
 **************************************************************/
+//Librerías
 #include <iostream>
 #include <fstream> // Para ofstream
 #include <string>
@@ -197,6 +198,7 @@ Estudiante *buscarEstudiantePorId(int id, vector<Estudiante> &grupo)
     return nullptr;
 }
 
+//Función para modificar los datos del estudiante
 void modificarDatoEstudiante(Estudiante *estudiante)
 {
     char opcion;
@@ -283,6 +285,7 @@ void modificarDatoEstudiante(Estudiante *estudiante)
     }
 }
 
+//Función para actualizar los datos de un estudiante
 void actualizarArchivo(const string &nombre_archivo, const vector<Estudiante> &grupo)
 {
     ofstream archivo(nombre_archivo);
@@ -313,6 +316,8 @@ void actualizarArchivo(const string &nombre_archivo, const vector<Estudiante> &g
         cout << "Error al abrir el archivo " << nombre_archivo << endl;
     }
 }
+
+//Función para limpiar la base de datos con los datos de los estudiantes
 void vaciardatos(vector<Estudiante> &grupo, const string &nombreArchivo)
 {
     // Vaciar el vector
@@ -333,14 +338,29 @@ void vaciardatos(vector<Estudiante> &grupo, const string &nombreArchivo)
 bool ciclo = true;
 char op_switch, group_switch;
 
-void detallesEstudiante(const vector<Estudiante>& grupoA, const vector<Estudiante>& grupoB, const vector<Estudiante>& grupoC) {
+//Función para imprimir y mostrar los datos del estudiante registrado
+void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>& grupoB, const vector<Estudiante>& grupoC) {
+    string input;
     int id;
-    cout << "Ingrese el ID de un estudiante registrado: ";
-    cin >> id;
+    bool valid_input = false;
+
+    while (!valid_input) {
+        cout << "Ingrese el ID del estudiante que desea ver: ";
+        cin >> input;
+
+        // Comprobar que todos los caracteres del input son dígitos
+        valid_input = all_of(input.begin(), input.end(), ::isdigit);
+        if (valid_input) {
+            id = stoi(input);
+        } else {
+            cout << "ID inválido. Por favor, ingrese un número." << endl;
+        }
+    }
 
     const Estudiante* estudiante = nullptr;
     char grupo;
 
+    // Buscar el estudiante en los grupos A, B, y C
     for (const auto& est : grupoA) {
         if (est.id == id) {
             estudiante = &est;
@@ -360,7 +380,7 @@ void detallesEstudiante(const vector<Estudiante>& grupoA, const vector<Estudiant
     }
 
     if (!estudiante) {
-        for (const auto & est : grupoC) {
+        for (const auto& est : grupoC) {
             if (est.id == id) {
                 estudiante = &est;
                 grupo = 'C';
@@ -371,25 +391,19 @@ void detallesEstudiante(const vector<Estudiante>& grupoA, const vector<Estudiant
 
     if (estudiante) {
         cout << "\n\t\t\t  DATOS DEL ESTUDIANTE\n";
-        cout << endl;
-        cout << "Grupo: " << grupo << endl;
-        cout << "Nombre del estudiante: " << estudiante->nombre << " " << estudiante->apellido_paterno << " " << estudiante->apellido_materno << endl;
-        cout << "ID del estudiante: \t\t" << estudiante->id << endl;
-        cout << endl;
-        cout << "\n\t\t\t  DATOS DEL CONTACTO DEL FAMILIAR\n";
-        cout << endl;
-        cout << "Nombre del pariente: \t\t" << estudiante->familiar.nombre << " " << estudiante->familiar.apellido_paterno << " " << estudiante->familiar.apellido_materno << endl;
-        cout << "Vínculo familiar: \t\t" << estudiante->familiar.vinculo_familiar << endl;
-        cout << "Número de teléfono: \t\t" << estudiante->familiar.numero_telefono << endl;
-        cout << endl;
-        cout << "\n\t\t\t\tCALIFICACIONES\n";
-        cout << endl;
-
+        cout << "GRUPO: " << grupo << endl;
+        cout << "NOMBRE DEL ESTUDIANTE: \t\t" << estudiante->nombre << " " << estudiante->apellido_paterno << " " << estudiante->apellido_materno << endl;
+        cout << "ID DEL ESTUDIANTE: \t\t\t" << estudiante->id << endl;
+        cout << "\n\t\t\tDATOS DE CONTACTO DEL FAMILIAR\n";
+        cout << "NOMBRE DEL PARIENTE: \t\t" << estudiante->familiar.nombre << " " << estudiante->familiar.apellido_paterno << " " << estudiante->familiar.apellido_materno << endl;
+        cout << "VINCULO FAMILIAR: \t\t\t" << estudiante->familiar.vinculo_familiar << endl;
+        cout << "NUMERO DE TELEFONO: \t\t" << estudiante->familiar.numero_telefono << endl;
+        cout << "\n\t\t\tCALIFICACIONES\n";
         for (int i = 0; i < Estudiante::num_materias; ++i) {
             cout << estudiante->materias[i] << ": \t\t" << estudiante->calificaciones[i] << endl;
         }
     } else {
-        cout << "Estudiante con ID " << id << " no ha sido encontrado." << endl;
+        cout << "Estudiante con ID " << id << " no encontrado." << endl;
     }
 }
 
@@ -457,7 +471,7 @@ int main()
             break; // Fin case 1
 
             case '2':
-                detallesEstudiante(grupoA, grupoB, grupoC);
+                mostrarDetalles(grupoA, grupoB, grupoC);
                 cout << "Presione enter para continuar: " << endl;
                 cin.ignore();
                 cin.get();
