@@ -371,16 +371,19 @@ void detallesEstudiante(const vector<Estudiante>& grupoA, const vector<Estudiant
 
     if (estudiante) {
         cout << "\n\t\t\t  DATOS DEL ESTUDIANTE\n";
+        cout << endl;
         cout << "Grupo: " << grupo << endl;
         cout << "Nombre del estudiante: " << estudiante->nombre << " " << estudiante->apellido_paterno << " " << estudiante->apellido_materno << endl;
         cout << "ID del estudiante: \t\t" << estudiante->id << endl;
         cout << endl;
         cout << "\n\t\t\t  DATOS DEL CONTACTO DEL FAMILIAR\n";
+        cout << endl;
         cout << "Nombre del pariente: \t\t" << estudiante->familiar.nombre << " " << estudiante->familiar.apellido_paterno << " " << estudiante->familiar.apellido_materno << endl;
         cout << "Vínculo familiar: \t\t" << estudiante->familiar.vinculo_familiar << endl;
         cout << "Número de teléfono: \t\t" << estudiante->familiar.numero_telefono << endl;
         cout << endl;
-        cout << "\n\t\t\tCALIFICACIONES\n";
+        cout << "\n\t\t\t\tCALIFICACIONES\n";
+        cout << endl;
 
         for (int i = 0; i < Estudiante::num_materias; ++i) {
             cout << estudiante->materias[i] << ": \t\t" << estudiante->calificaciones[i] << endl;
@@ -581,5 +584,4 @@ int main()
         Gerardo Esqueda Padilla
         Diego Munoz
         chat gpt 3.5
-
 **********************************************/
