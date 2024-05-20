@@ -340,72 +340,175 @@ char op_switch, group_switch;
 
 //Función para imprimir y mostrar los datos del estudiante registrado
 void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>& grupoB, const vector<Estudiante>& grupoC) {
-    string input;
-    int id;
-    bool valid_input = false;
+    char opcion;
+    cout << "Seleccione una opción para mostrar detalles:" << endl;
+    cout << "a. Mostrar detalles de un estudiante por ID" << endl;
+    cout << "b. Mostrar todos los estudiantes de un grupo" << endl;
+    cout << "c. Mostrar calificaciones de una materia para todos los estudiantes" << endl;
+    cout << "d. Mostrar todos los estudiantes registrados en todos los grupos" << endl;
+    cout << "Ingrese su opción: ";
+    cin >> opcion;
+    opcion = tolower(opcion); // Convertir la opción a minúscula
 
-    while (!valid_input) {
-        cout << "Ingrese el ID del estudiante que desea ver: ";
-        cin >> input;
+    cin.ignore(); // Limpiar el buffer de entrada
 
-        // Comprobar que todos los caracteres del input son dígitos
-        valid_input = all_of(input.begin(), input.end(), ::isdigit);
-        if (valid_input) {
-            id = stoi(input);
-        } else {
-            cout << "ID inválido. Por favor, ingrese un número." << endl;
-        }
-    }
+    switch (opcion) {
+        case 'a': {
+            string input;
+            int id;
+            bool valido = false;
 
-    const Estudiante* estudiante = nullptr;
-    char grupo;
+            while (!valido) {
+                cout << "Ingrese el ID del estudiante que desea ver: ";
+                cin >> input;
 
-    // Buscar el estudiante en los grupos A, B, y C
-    for (const auto& est : grupoA) {
-        if (est.id == id) {
-            estudiante = &est;
-            grupo = 'A';
+                valido = all_of(input.begin(), input.end(), ::isdigit);
+                if (valido) {
+                    id = stoi(input);
+                } else {
+                    cout << "ID inválido. Por favor, ingrese un número." << endl;
+                }
+            }
+
+            const Estudiante* estudiante = nullptr;
+            char grupo;
+
+            for (const auto& est : grupoA) {
+                if (est.id == id) {
+                    estudiante = &est;
+                    grupo = 'A';
+                    break;
+                }
+            }
+
+            if (!estudiante) {
+                for (const auto& est : grupoB) {
+                    if (est.id == id) {
+                        estudiante = &est;
+                        grupo = 'B';
+                        break;
+                    }
+                }
+            }
+
+            if (!estudiante) {
+                for (const auto& est : grupoC) {
+                    if (est.id == id) {
+                        estudiante = &est;
+                        grupo = 'C';
+                        break;
+                    }
+                }
+            }
+
+            if (estudiante) {
+                cout << "\n\t\t\t  DATOS DEL ESTUDIANTE\n";
+                cout << "GRUPO: " << grupo << endl;
+                cout << "NOMBRE DEL ESTUDIANTE: \t\t" << estudiante->nombre << " " << estudiante->apellido_paterno << " " << estudiante->apellido_materno << endl;
+                cout << "ID DEL ESTUDIANTE: \t\t\t" << estudiante->id << endl;
+                cout << "\n\t\t\tDATOS DE CONTACTO DEL FAMILIAR\n";
+                cout << "NOMBRE DEL PARIENTE: \t\t" << estudiante->familiar.nombre << " " << estudiante->familiar.apellido_paterno << " " << estudiante->familiar.apellido_materno << endl;
+                cout << "VINCULO FAMILIAR: \t\t\t" << estudiante->familiar.vinculo_familiar << endl;
+                cout << "NUMERO DE TELEFONO: \t\t" << estudiante->familiar.numero_telefono << endl;
+                cout << "\n\t\t\tCALIFICACIONES\n";
+                for (int i = 0; i < Estudiante::num_materias; ++i) {
+                    cout << estudiante->materias[i] << ": \t\t" << estudiante->calificaciones[i] << endl;
+                }
+            } else {
+                cout << "Estudiante con ID " << id << " no encontrado." << endl;
+            }
             break;
         }
-    }
+        case 'b': {
+            char grupo;
+            cout << "Ingrese el grupo que desea ver (A, B, C): ";
+            cin >> grupo;
+            grupo = toupper(grupo); // Convertir el grupo a mayúscula
 
-    if (!estudiante) {
-        for (const auto& est : grupoB) {
-            if (est.id == id) {
-                estudiante = &est;
-                grupo = 'B';
-                break;
+            const vector<Estudiante>* grupo_estudiantes = nullptr;
+            switch (grupo) {
+                case 'A':
+                    grupo_estudiantes = &grupoA;
+                    break;
+                case 'B':
+                    grupo_estudiantes = &grupoB;
+                    break;
+                case 'C':
+                    grupo_estudiantes = &grupoC;
+                    break;
+                default:
+                    cout << "Grupo inválido." << endl;
+                    return;
             }
-        }
-    }
 
-    if (!estudiante) {
-        for (const auto& est : grupoC) {
-            if (est.id == id) {
-                estudiante = &est;
-                grupo = 'C';
-                break;
+            if (grupo_estudiantes) {
+                cout << "\n\t\t\t  DATOS DEL GRUPO " << grupo << "\n";
+                for (const auto& estudiante : *grupo_estudiantes) {
+                    cout << "NOMBRE DEL ESTUDIANTE: \t\t" << estudiante.nombre << " " << estudiante.apellido_paterno << " " << estudiante.apellido_materno << endl;
+                    cout << "ID DEL ESTUDIANTE: \t\t\t" << estudiante.id << endl;
+                    cout << "\n";
+                }
             }
+            break;
         }
-    }
+        case 'c': {
+            cout << "Seleccione la materia para ver las calificaciones:" << endl;
+            for (int i = 0; i < Estudiante::num_materias; ++i) {
+                cout << i + 1 << ". " << Estudiante().materias[i] << endl;
+            }
+            int materia_index;
+            cout << "Ingrese el número de la materia: ";
+            cin >> materia_index;
 
-    if (estudiante) {
-        cout << "\n\t\t\t  DATOS DEL ESTUDIANTE\n";
-        cout << "GRUPO: " << grupo << endl;
-        cout << "NOMBRE DEL ESTUDIANTE: \t\t" << estudiante->nombre << " " << estudiante->apellido_paterno << " " << estudiante->apellido_materno << endl;
-        cout << "ID DEL ESTUDIANTE: \t\t\t" << estudiante->id << endl;
-        cout << "\n\t\t\tDATOS DE CONTACTO DEL FAMILIAR\n";
-        cout << "NOMBRE DEL PARIENTE: \t\t" << estudiante->familiar.nombre << " " << estudiante->familiar.apellido_paterno << " " << estudiante->familiar.apellido_materno << endl;
-        cout << "VINCULO FAMILIAR: \t\t\t" << estudiante->familiar.vinculo_familiar << endl;
-        cout << "NUMERO DE TELEFONO: \t\t" << estudiante->familiar.numero_telefono << endl;
-        cout << "\n\t\t\tCALIFICACIONES\n";
-        for (int i = 0; i < Estudiante::num_materias; ++i) {
-            cout << estudiante->materias[i] << ": \t\t" << estudiante->calificaciones[i] << endl;
+            if (materia_index < 1 || materia_index > Estudiante::num_materias) {
+                cout << "Materia inválida." << endl;
+                return;
+            }
+
+            materia_index -= 1; // Convertir a índice de array
+
+            cout << "\n\t\t\tCALIFICACIONES DE " << Estudiante().materias[materia_index] << "\n";
+
+            auto mostrarCalificaciones = [&](const vector<Estudiante>& grupo) {
+                for (const auto& estudiante : grupo) {
+                    cout << "NOMBRE DEL ESTUDIANTE: \t\t" << estudiante.nombre << " " << estudiante.apellido_paterno << " " << estudiante.apellido_materno << endl;
+                    cout << "CALIFICACION: \t\t\t" << estudiante.calificaciones[materia_index] << endl;
+                    cout << "\n";
+                }
+            };
+
+            cout << "\nGrupo A:\n";
+            mostrarCalificaciones(grupoA);
+            cout << "\nGrupo B:\n";
+            mostrarCalificaciones(grupoB);
+            cout << "\nGrupo C:\n";
+            mostrarCalificaciones(grupoC);
+            break;
         }
-    } else {
-        cout << "Estudiante con ID " << id << " no encontrado." << endl;
+        case 'd': {
+            auto mostrarGrupo = [&](const vector<Estudiante>& grupo, char grupo_nombre) {
+                cout << "\n\t\t\t  DATOS DEL GRUPO " << grupo_nombre << "\n";
+                for (const auto& estudiante : grupo) {
+                    cout << "NOMBRE DEL ESTUDIANTE: \t\t" << estudiante.nombre << " " << estudiante.apellido_paterno << " " << estudiante.apellido_materno << endl;
+                    cout << "ID DEL ESTUDIANTE: \t\t\t" << estudiante.id << endl;
+                    cout << "NOMBRE DEL PARIENTE: \t\t" << estudiante.familiar.nombre << " " << estudiante.familiar.apellido_paterno << " " << estudiante.familiar.apellido_materno << endl;
+                    cout << "VINCULO FAMILIAR: \t\t\t" << estudiante.familiar.vinculo_familiar << endl;
+                    cout << "NUMERO DE TELEFONO: \t\t" << estudiante.familiar.numero_telefono << endl;
+                    cout << "\n";
+                }
+            };
+
+            mostrarGrupo(grupoA, 'A');
+            mostrarGrupo(grupoB, 'B');
+            mostrarGrupo(grupoC, 'C');
+            break;
+        }
+        default:
+            cout << "Opción inválida." << endl;
     }
 }
+
+
 
 int main()
 {
