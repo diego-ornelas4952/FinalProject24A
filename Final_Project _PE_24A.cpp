@@ -333,9 +333,65 @@ void vaciardatos(vector<Estudiante> &grupo, const string &nombreArchivo)
 bool ciclo = true;
 char op_switch, group_switch;
 
+void detallesEstudiante(const vector<Estudiante>& grupoA, const vector<Estudiante>& grupoB, const vector<Estudiante>& grupoC) {
+    int id;
+    cout << "Ingrese el ID de un estudiante registrado: ";
+    cin >> id;
+
+    const Estudiante* estudiante = nullptr;
+    char grupo;
+
+    for (const auto& est : grupoA) {
+        if (est.id == id) {
+            estudiante = &est;
+            grupo = 'A';
+            break;
+        }
+    }
+
+    if (!estudiante) {
+        for (const auto& est : grupoB) {
+            if (est.id == id) {
+                estudiante = &est;
+                grupo = 'B';
+                break;
+            }
+        }
+    }
+
+    if (!estudiante) {
+        for (const auto & est : grupoC) {
+            if (est.id == id) {
+                estudiante = &est;
+                grupo = 'C';
+                break;
+            }
+        }
+    }
+
+    if (estudiante) {
+        cout << "\n\t\t\t  DATOS DEL ESTUDIANTE\n";
+        cout << "Grupo: " << grupo << endl;
+        cout << "Nombre del estudiante: " << estudiante->nombre << " " << estudiante->apellido_paterno << " " << estudiante->apellido_materno << endl;
+        cout << "ID del estudiante: \t\t" << estudiante->id << endl;
+        cout << endl;
+        cout << "\n\t\t\t  DATOS DEL CONTACTO DEL FAMILIAR\n";
+        cout << "Nombre del pariente: \t\t" << estudiante->familiar.nombre << " " << estudiante->familiar.apellido_paterno << " " << estudiante->familiar.apellido_materno << endl;
+        cout << "Vínculo familiar: \t\t" << estudiante->familiar.vinculo_familiar << endl;
+        cout << "Número de teléfono: \t\t" << estudiante->familiar.numero_telefono << endl;
+        cout << endl;
+        cout << "\n\t\t\tCALIFICACIONES\n";
+
+        for (int i = 0; i < Estudiante::num_materias; ++i) {
+            cout << estudiante->materias[i] << ": \t\t" << estudiante->calificaciones[i] << endl;
+        }
+    } else {
+        cout << "Estudiante con ID " << id << " no ha sido encontrado." << endl;
+    }
+}
+
 int main()
 {
-
     vector<Estudiante> grupoA, grupoB, grupoC;
 
     // Cargar datos desde los archivos
@@ -347,6 +403,7 @@ int main()
     {
         cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
         cout << "\t1. Agregar estudiantes" << endl;
+        cout << "\t2. Buscar datos de estudiantes" << endl;
         cout << "\t3. Modificar datos de estudiantes" << endl;
         cout << "\t5. Vaciar bases de datos" << endl;
         cout << "\t6. Salir" << endl;
@@ -395,7 +452,16 @@ int main()
             } // Fin validar si es letra
             system("cls");
             break; // Fin case 1
-        case '3':
+
+            case '2':
+                detallesEstudiante(grupoA, grupoB, grupoC);
+                cout << "Presione enter para continuar: " << endl;
+                cin.ignore();
+                cin.get();
+                system("cls");
+                break;
+
+            case '3':
         { // Modificar datos de estudiantes
             cout << "Ingrese el ID del estudiante: ";
             string input_id;
