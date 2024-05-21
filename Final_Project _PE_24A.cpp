@@ -598,6 +598,7 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
                 cout << "NOMBRE DEL PARIENTE: \t\t" << estudiante->familiar.nombre << " " << estudiante->familiar.apellido_paterno << " " << estudiante->familiar.apellido_materno << endl;
                 cout << "VINCULO FAMILIAR: \t\t\t" << estudiante->familiar.vinculo_familiar << endl;
                 cout << "NUMERO DE TELEFONO: \t\t" << estudiante->familiar.numero_telefono << endl;
+                cout << "PROMEDIO DE CALIFICACIONES: \t" << calcular_promedio() << " (" << obtener_leyenda_promedio() << ")" << endl;
                 cout << "\n\t\t\tCALIFICACIONES\n";
                 for (int i = 0; i < Estudiante::num_materias; ++i) {
                     cout << estudiante->materias[i] << ": \t\t" << estudiante->calificaciones[i] << endl;
