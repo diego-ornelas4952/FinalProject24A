@@ -369,10 +369,14 @@ bool validarId(const string &id_str)
 
 void modificarDatoEstudiante(Estudiante *estudiante)
 {
+    vector<Estudiante> grupoA, grupoB, grupoC;
+    cargar_datos("Group_A.txt", grupoA);
+    cargar_datos("Group_B.txt", grupoB);
+    cargar_datos("Group_C.txt", grupoC);
+
     char opcion;
     do
     {
-
         cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
         cout << "\nSeleccione el dato que desea modificar: " << endl;
         cout << "a. Nombre del estudiante" << endl;
@@ -389,8 +393,9 @@ void modificarDatoEstudiante(Estudiante *estudiante)
     } while (!validarEntradaChar(opcion));
     opcion = tolower(opcion); // Convertir la opción a minúscula
 
-    cin.ignore();
+    cin.ignore(); // Limpiar el buffer del cin
     system("cls");
+
     switch (opcion)
     {
     case 'a':
@@ -416,20 +421,22 @@ void modificarDatoEstudiante(Estudiante *estudiante)
         cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
              << endl;
         cout << "Nuevo ID del estudiante: ";
-        string input_id;
-        getline(cin >> ws, input_id);
-        if (validarId(input_id))
+        string id_input;
+        cin >> id_input;
+        while (!validarId(id_input) || idExiste(id_input, grupoA) || idExiste(id_input, grupoB) || idExiste(id_input, grupoC))
         {
-            estudiante->id = stoi(input_id);
+            if (!validarId(id_input))
+            {
+                cout << "ID invalido. Debe ser un numero de 5 digitos. Intentalo de nuevo: ";
+            }
+            else
+            {
+                cout << "El ID ingresado ya ha sido utilizado. Ingrese otro ID: ";
+            }
+            cin >> id_input;
         }
-        else
-        {
-            cout << "ID invalido. Ingrese un numero." << endl;
-            cout << "Presione enter para continuar...";
-            cin.get();
-            system("cls");
-            return;
-        }
+        estudiante->id = stoi(id_input);
+        cin.ignore();
         break;
     }
     case 'e':
@@ -460,14 +467,19 @@ void modificarDatoEstudiante(Estudiante *estudiante)
         cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
              << endl;
         cout << "Nuevo numero de telefono: ";
-        getline(cin, estudiante->familiar.numero_telefono);
+        getline(cin >> ws, estudiante->familiar.numero_telefono);
+        while (!validarTel(estudiante->familiar.numero_telefono))
+        {
+            cout << "Numero de telefono invalido. Debe ser un numero de 10 digitos. Intentalo de nuevo: ";
+            getline(cin >> ws, estudiante->familiar.numero_telefono);
+        }
         break;
     case 'j':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         estudiante->ingresar_calificaciones();
         break;
     default:
-        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
-             << endl;
         cout << "Opcion invalida." << endl;
         cout << "Presione enter para continuar...";
         cin.get();
@@ -865,8 +877,6 @@ int main()
                     {
                         actualizarArchivo("Group_C.txt", grupoC);
                     }
-                    cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
-                    cout << "\nLos datos se han modificado correctamente." << endl;
                     cout << "Presione enter, para continuar...";
                     cin.get();
                     system("cls");
