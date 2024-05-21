@@ -5,7 +5,6 @@
         PROFESOR: Sergio Franco Casillas
         DESCRIPCION: Programa para universidad de prestigio
 **************************************************************/
-//Librerías
 #include <iostream>
 #include <fstream> // Para ofstream
 #include <string>
@@ -128,14 +127,26 @@ struct Estudiante
         for (int i = 0; i < num_materias; ++i)
         {
             double calificacion;
+            string entrada;
             cout << materias[i] << ": ";
-            cin >> calificacion;
 
-            // Validar que la calificación esté dentro del rango
-            while (calificacion < 0 || calificacion > 100)
+            // Validar la entrada
+            while (true)
             {
-                cout << "La calificacion debe estar entre 0 y 100. Intentalo de nuevo: ";
-                cin >> calificacion;
+                cin >> entrada;
+                stringstream ss(entrada);
+
+                // Intentar convertir la entrada a double
+                if (ss >> calificacion && !(ss >> entrada) && calificacion >= 0 && calificacion <= 100)
+                {
+                    break; // Entrada válida
+                }
+                else
+                {
+                    cout << "La calificación debe ser un número entre 0 y 100. Inténtalo de nuevo: ";
+                    cin.clear(); // Limpiar el error
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Descartar la entrada inválida
+                }
             }
 
             calificaciones.push_back(calificacion);
@@ -734,7 +745,6 @@ int main()
         cout << "\t1. Agregar estudiantes" << endl;
         cout << "\t2. Buscar datos de estudiantes" << endl;
         cout << "\t3. Modificar datos de estudiantes" << endl;
-        cout << "\t4. Borrar datos de un estudiante" << endl;
         cout << "\t5. Vaciar bases de datos" << endl;
         cout << "\t6. Salir" << endl;
         cout << "Seleccione una opcion: ";
