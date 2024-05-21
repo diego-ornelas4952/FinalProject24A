@@ -151,11 +151,90 @@ void cargar_datos(const string &nombre_archivo, vector<Estudiante> &grupo)
         archivo.close();
     }
 }
+// Funcion para validar ID
+bool validarID(const string &id_str)
+{
+    // Verificar que la longitud sea 5
+    if (id_str.length() != 5)
+    {
+        return false;
+    }
+
+    // Verificar que todos los caracteres sean dígitos
+    for (char c : id_str)
+    {
+        if (!isdigit(c))
+        {
+            return false;
+        }
+    }
+    return true;
+}
+// Función para eliminar espacios en blanco de una cadena
+string eliminarEspacios(const string &str) {
+    string resultado;
+    for (char ch : str) {
+        if (!isspace(ch)) {
+            resultado += ch;
+        }
+    }
+    return resultado;
+}
+// Funcion para validar telefono
+bool validarTel(const string &tel)
+{
+    string telSinEspacios = eliminarEspacios(tel);
+    // Verificar que la longitud sea 5
+    if (telSinEspacios.length() != 10)
+    {
+        return false;
+    }
+
+    // Verificar que todos los caracteres sean dígitos
+    for (char ch : telSinEspacios)
+    {
+        if (!isdigit(ch))
+        {
+            return false;
+        }
+    }
+    return true;
+}
+// Funcion para validar que la entrada sea solo una letra
+bool validarEntradaGrupo(char group_switch) {
+    if (cin.peek() != '\n') {
+        cout << "\nSolo se puede ingresar un caracter." << endl;
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Limpiar el buffer de entrada
+        return false;
+    }
+    return true;
+}
+// Función para validar si un ID ya existe en un vector de estudiantes
+bool idExiste(string id, const vector<Estudiante> &grupo)
+{
+     if(validarID(id)){
+        for (const auto &estudiante : grupo)
+        {
+            if (estudiante.id == stoi(id))
+            {
+                return true; // El ID existe en el vector
+            }
+        }
+    }
+    return false; // El ID no existe en el vector
+}
 // Funcion para solicitar los datos del estudiante al usuario
 Estudiante obtenerDatosEstudiante(char grupo)
-{
+{   
     Estudiante estudiante;
     estudiante.grupo = grupo;
+    // Declarar y definir las variables de los grupos
+    vector<Estudiante> grupoA, grupoB, grupoC;
+
+    // Cargar los datos desde los archivos
+    cargar_datos("Group_A.txt", grupoA);
+    cargar_datos("Group_B.txt", grupoB);
+    cargar_datos("Group_C.txt", grupoC);
 
     cout << "\nGrupo: " << grupo << endl
          << endl;
@@ -165,8 +244,20 @@ Estudiante obtenerDatosEstudiante(char grupo)
     cin >> estudiante.apellido_paterno;
     cout << "Apellido materno del estudiante: ";
     cin >> estudiante.apellido_materno;
+    string id_input;
     cout << "ID del estudiante: ";
-    cin >> estudiante.id;
+    cin >> id_input;
+    // Validar que el ID no haya sido previamente ingresado
+    while ((idExiste(id_input, grupoA) || idExiste(id_input, grupoB) || idExiste(id_input, grupoC)) && validarID(id_input))
+    {
+        cout << "El ID ingresado ya ha sido utilizado. Ingrese otro ID: ";
+        cin >> id_input;
+    }
+    while (!validarID(id_input)) {  // Validar que sean 5 digitos y sean numeros
+        cout << "ID invalido. Debe ser un numero de 5 digitos. Intentalo de nuevo: ";
+        cin >> id_input;
+    }
+    estudiante.id = stoi(id_input);
     cout << endl;
     cout << "Ingrese los datos de contacto del pariente." << endl;
     cout << "Nombre del pariente: ";
@@ -179,6 +270,10 @@ Estudiante obtenerDatosEstudiante(char grupo)
     getline(cin >> ws, estudiante.familiar.vinculo_familiar);
     cout << "Numero de telefono: ";
     getline(cin >> ws, estudiante.familiar.numero_telefono); // Leer toda la línea, incluidos los espacios
+    while (!validarTel(estudiante.familiar.numero_telefono)) {  // Validar que sean 5 digitos y sean numeros
+        cout << "Numero de telefono invalido. Debe ser un numero de 10 digitos. Intentalo de nuevo: ";
+        getline(cin >> ws, estudiante.familiar.numero_telefono); // Leer toda la línea, incluidos los espacios
+    }
     cout << endl;
 
     // Ingresar calificaciones
@@ -598,11 +693,15 @@ int main()
             cout << "\nCompleta los siguientes campos para registrar los datos del estudiante en nuestro sistema." << endl;
             cout << "Ingrese el grupo al que pertenece el alumno (A, B, C): ";
             cin >> group_switch;
-            if (isalpha(group_switch) && islower(group_switch))
+            while(!validarEntradaGrupo(group_switch)){
+                cout << "Grupo incorrecto, ingrese solo un caracter: ";
+                cin >> group_switch;
+            }
+            if (isalpha(group_switch) && islower(group_switch) && validarEntradaGrupo(group_switch))
             {
                 group_switch = toupper(group_switch);
             }
-            if (isalpha(group_switch))
+            if (isalpha(group_switch) && validarEntradaGrupo(group_switch))
             { // Validar si es letra
                 Estudiante nuevo_estudiante;
                 switch (group_switch)
