@@ -1,4 +1,4 @@
-/*Presentacion************************
+/***********************Presentacion*************************
         PROGRAMA: Final_Project_PE_24A.cpp
         CENTRO UNIVERSITARIO DE LOS ALTOS / UNIVERSIDAD DE GUADALAJARA
         INGENIERIA EN COMPUTACION / 2DO SEMESTRE
@@ -100,10 +100,10 @@ struct Estudiante
                 }
                 else
                 {
-                    archivo << upper_materia << ": \t\t\t\t\t" << calificaciones[i] << endl;
+                    archivo << upper_materia << ": \t\t\t\t\t\t" << calificaciones[i] << endl;
                 }
             }
-            archivo << "PROMEDIO DE CALIFICACIONES: \t" << calcular_promedio() << " (" << obtener_leyenda_promedio() << ")" << endl; // Agregar el promedio y la leyenda al archivo
+            archivo << "PROMEDIO DE CALIFICACIONES: \t\t\t\t" << calcular_promedio() << " (" << obtener_leyenda_promedio() << ")" << endl; // Agregar el promedio y la leyenda al archivo
             archivo << "------------------------------------------------" << endl;
 
             // Cierra el archivo
@@ -494,6 +494,7 @@ void actualizarArchivo(const string &nombre_archivo, const vector<Estudiante> &g
     {
         for (const auto &estudiante : grupo)
         {
+            // Escribe los datos del estudiante en el archivo
             archivo << "\t\t\t  DATOS DEL ESTUDIANTE" << endl;
             archivo << "GRUPO: " << estudiante.grupo << endl;
             archivo << "NOMBRE DEL ESTUDIANTE: \t\t" << estudiante.nombre << " " << estudiante.apellido_paterno << " " << estudiante.apellido_materno << endl;
@@ -502,11 +503,21 @@ void actualizarArchivo(const string &nombre_archivo, const vector<Estudiante> &g
             archivo << "NOMBRE DEL PARIENTE: \t\t" << estudiante.familiar.nombre << " " << estudiante.familiar.apellido_paterno << " " << estudiante.familiar.apellido_materno << endl;
             archivo << "VINCULO FAMILIAR: \t\t\t" << estudiante.familiar.vinculo_familiar << endl;
             archivo << "NUMERO DE TELEFONO: \t\t" << estudiante.familiar.numero_telefono << endl;
-            archivo << "CALIFICACIONES: " << endl;
+            archivo << "\t\t\tCALIFICACIONES: " << endl;
             for (int i = 0; i < Estudiante::num_materias; ++i)
             {
-                archivo << estudiante.materias[i] << ": " << estudiante.calificaciones[i] << endl;
+                string upper_materia = estudiante.materias[i];
+                transform(upper_materia.begin(), upper_materia.end(), upper_materia.begin(), ::toupper);
+                if (upper_materia != "PROGRAMACION")
+                {
+                    archivo << upper_materia << ": \t\t\t\t\t\t" << estudiante.calificaciones[i] << endl;
+                }
+                else
+                {
+                    archivo << upper_materia << ": \t\t\t\t\t\t" << estudiante.calificaciones[i] << endl;
+                }
             }
+            archivo << "PROMEDIO DE CALIFICACIONES: \t\t\t\t" << estudiante.calcular_promedio() << " (" << estudiante.obtener_leyenda_promedio() << ")" << endl; // Agregar el promedio y la leyenda al archivo
             archivo << "------------------------------------------------" << endl;
         }
         archivo.close();
@@ -1036,6 +1047,6 @@ int main()
         Eduardo Dominguez Padilla
         Diego Josuan Ornelas Duran
         Gerardo Esqueda Padilla
-        Diego Munoz
+        Diego Munoz Cisneros
         chat gpt 3.5
 **********************************************/
