@@ -387,7 +387,7 @@ void vaciardatos(vector<Estudiante> &grupo, const string &nombreArchivo)
     if (archivo.is_open())
     {
         archivo.close();
-        cout << "Se han eliminado los datos del archivo " << nombreArchivo << endl;
+        cout << "\nSe han eliminado los datos del archivo " << nombreArchivo << endl;
     }
     else
     {
@@ -734,30 +734,45 @@ int main()
         }
         case '5':
             char opceliminar;
+            cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management\n" << endl;
             cout << "Seleccione el grupo que sea eliminar (A, B, C): ";
-            cin >> opceliminar;
-            if (isalpha(opceliminar) && islower(opceliminar))
+            if (validarEntradaChar(opceliminar))
             {
-                opceliminar = toupper(opceliminar);
-            }
-            if (isalpha(opceliminar))
-            {
-                switch (opceliminar)
+                if (isalpha(opceliminar) && islower(opceliminar))
                 {
-                case 'A':
-                    vaciardatos(grupoA, "Group_A.txt");
-                    break;
-                case 'B':
-                    vaciardatos(grupoB, "Group_B.txt");
-                    break;
-                case 'C':
-                    vaciardatos(grupoC, "Group_C.txt");
-                    break;
-                default:
-                    cout << "\nGrupo invalido, seleccione una opcion correcta..." << endl;
-                    cout << "Presione enter, para continuar...";
-                    cin.get();
-                    break;
+                    opceliminar = toupper(opceliminar);
+                }
+                if (isalpha(opceliminar))
+                {
+                    switch (opceliminar)
+                    {
+                    case 'A':
+                        vaciardatos(grupoA, "Group_A.txt");
+                        cout << "Presione enter, para continuar...";
+                        cin.ignore();
+                        cin.get();
+                        system("cls");
+                        break;
+                    case 'B':
+                        vaciardatos(grupoB, "Group_B.txt");
+                        cout << "Presione enter, para continuar...";
+                        cin.ignore();
+                        cin.get();
+                        system("cls");
+                        break;
+                    case 'C':
+                        vaciardatos(grupoC, "Group_C.txt");
+                        cout << "Presione enter, para continuar...";
+                        cin.ignore();
+                        cin.get();
+                        system("cls");
+                        break;
+                    default:
+                        cout << "\nGrupo invalido, seleccione una opcion correcta..." << endl;
+                        cout << "Presione enter, para continuar...";
+                        cin.get();
+                        break;
+                    }
                 }
             }
             break;
