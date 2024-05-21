@@ -329,6 +329,7 @@ Estudiante *buscarEstudiantePorId(int id, vector<Estudiante> &grupo)
     }
     return nullptr;
 }
+//funcion para validar el ingreso de un solo caracter
 bool validarEntradaChar(char &opcion)
 { // Leer la entrada del caracter
     cin >> opcion;
@@ -349,6 +350,7 @@ bool validarEntradaChar(char &opcion)
     // Si se ingresó un caracter válido, devolver true
     return true;
 }
+//funcion para validar el ID
 bool validarId(const string &id_str)
 {
     // Verificar que la longitud sea 5
@@ -366,7 +368,7 @@ bool validarId(const string &id_str)
     }
     return true;
 }
-
+//funcion para modificar los datos de los estudiantes
 void modificarDatoEstudiante(Estudiante *estudiante)
 {
     vector<Estudiante> grupoA, grupoB, grupoC;
@@ -487,7 +489,7 @@ void modificarDatoEstudiante(Estudiante *estudiante)
         break;
     }
 }
-//Función para actualizar los datos de un estudiante
+//Función para actualizar los datos en el archivo de un estudiante
 void actualizarArchivo(const string &nombre_archivo, const vector<Estudiante> &grupo)
 {
     ofstream archivo(nombre_archivo);
@@ -707,6 +709,7 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
             cout << "Opción inválida." << endl;
     }
 }
+//funcion para eliminar estudiantes buscando su ID
 void eliminarEstudiantePorId(int id, vector<Estudiante> &grupo, const string &filename)
 {
     auto it = remove_if(grupo.begin(), grupo.end(), [id](const Estudiante &estudiante)
@@ -726,9 +729,10 @@ void eliminarEstudiantePorId(int id, vector<Estudiante> &grupo, const string &fi
         cout << "Estudiante no encontrado." << endl;
     }
 }
-
+//inicio del main
 int main()
 {
+        //declaración de variables
     vector<Estudiante> grupoA, grupoB, grupoC;
         bool ciclo = true;
         char group_switch;
@@ -737,7 +741,7 @@ int main()
     cargar_datos("Group_B.txt", grupoB);
     cargar_datos("Group_C.txt", grupoC);
 
-    while (ciclo)
+    while (ciclo) //inicio del while
     {
         cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
         cout << "\t1. Agregar estudiantes" << endl;
@@ -746,6 +750,7 @@ int main()
         cout << "\t5. Vaciar bases de datos" << endl;
         cout << "\t6. Salir" << endl;
         cout << "Seleccione una opcion: ";
+            //valida la entrada de un solo digito para el switch
        string op_switch_input;
         cin >> op_switch_input;
         if (op_switch_input.length() != 1 || !isdigit(op_switch_input[0]))
@@ -757,10 +762,9 @@ int main()
             system("cls");
             continue;
         }
-
         char op_switch = op_switch_input[0];
         system("cls");
-        switch (op_switch)
+        switch (op_switch) //inicio del switch
         {
         case '1': // Case 1: Agregar estudiantes
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
@@ -805,17 +809,14 @@ int main()
             } // Fin validar si es letra
             system("cls");
             break; // Fin case 1
-
-            case '2':
+            case '2': //caso 2 para mostrar datos
                 mostrarDetalles(grupoA, grupoB, grupoC);
                 cout << "Presione enter para continuar: " << endl;
                 cin.ignore();
                 cin.get();
                 system("cls");
-                break;
-
-            case '3':
-        { // Modificar datos de estudiantes
+                break;//fin caso 2
+            case '3': // caso 3 para modificar datos de estudiantes
             char opcion;
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
             cout << "\nIngrese el ID del estudiante: ";
@@ -861,7 +862,6 @@ int main()
                         }
                     }
                 }
-
                 if (estudiante != nullptr)
                 {
                     modificarDatoEstudiante(estudiante);
@@ -901,11 +901,8 @@ int main()
                 system("cls");
             }
             system("cls"); // Limpiar la pantalla
-
-            break;
-        }
-                case '4':
-        {
+            break; //fin caso 3
+                case '4': //caso 4 para eliminar un estudiante
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
             cout << "\nIngrese el ID del estudiante a eliminar: ";
             string input_id;
@@ -955,9 +952,8 @@ int main()
                 cin.get();
                 system("cls");
             }
-            break;
-        }
-        case '5':
+            break; //fin caso 4
+        case '5': //caso 5 para eliminar todos los alumnos de un grupo
             char opceliminar;
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management\n" << endl;
             cout << "Seleccione el grupo que sea eliminar (A, B, C): ";
@@ -1000,12 +996,11 @@ int main()
                     }
                 }
             }
-            break;
-        case '6': // Case 5: Salir
+            break; //fin caso 5
+        case '6': // Case 6: Salir
             ciclo = false;
-            break; // Fin case 5
-
-        default:
+            break; // Fin case 6
+        default: //caso default
             cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
             cout << "Opcion invalida, seleccione una opcion correcta..." << endl;
             cout << "Presione enter, para continuar...";
@@ -1023,5 +1018,4 @@ int main()
         Diego Josuan Ornelas Duran
         Gerardo Esqueda Padilla
         Diego Munoz
-        chat gpt 3.5
 **********************************************/
