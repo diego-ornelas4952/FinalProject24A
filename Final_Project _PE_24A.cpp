@@ -609,78 +609,92 @@ int main()
             case '3':
         { // Modificar datos de estudiantes
             char opcion;
-            do
+            cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+            cout << "\nIngrese el ID del estudiante: ";
+            string input_id;
+            getline(cin >> ws, input_id);
+            system("cls");
+            // Verificar si todos los caracteres son dígitos y si la longitud es 5
+            if (validarId(input_id))
             {
-                cout << "Ingrese el ID del estudiante: ";
-                string input_id;
-                getline(cin >> ws, input_id);
+                int id_estudiante = stoi(input_id); // Convertir el input a entero
+                Estudiante *estudiante = nullptr;
+                cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                cout << "\nIngrese el grupo del estudiante (A, B, C): ";
 
-                // Verificar si todos los caracteres son dígitos y si la longitud es 5
-                if (validarId(input_id))
+                if (validarEntradaChar(group_switch))
                 {
-                    int id_estudiante = stoi(input_id); // Convertir el input a entero
-                    Estudiante *estudiante = nullptr;
-                    cout << "Ingrese el grupo del estudiante (A, B, C): ";
-                    if (validarEntradaChar(group_switch))
+                    system("cls");
+                    if (isalpha(group_switch) && islower(group_switch))
                     {
-
-                        if (isalpha(group_switch) && islower(group_switch))
-                        {
-                            group_switch = toupper(group_switch);
-                        }
-
-                        if (isalpha(group_switch))
-                        {
-                            switch (group_switch)
-                            {
-                            case 'A':
-                                estudiante = buscarEstudiantePorId(id_estudiante, grupoA);
-                                break;
-                            case 'B':
-                                estudiante = buscarEstudiantePorId(id_estudiante, grupoB);
-                                break;
-                            case 'C':
-                                estudiante = buscarEstudiantePorId(id_estudiante, grupoC);
-                                break;
-                            default:
-                                cout << "Grupo invalido, seleccione una opcion correcta..." << endl;
-                                break;
-                            }
-                        }
+                        group_switch = toupper(group_switch);
                     }
 
-                    if (estudiante != nullptr)
+                    if (isalpha(group_switch))
                     {
-                        modificarDatoEstudiante(estudiante);
-                        if (group_switch == 'A')
+                        switch (group_switch)
                         {
-                            actualizarArchivo("Group_A.txt", grupoA);
+                        case 'A':
+                            estudiante = buscarEstudiantePorId(id_estudiante, grupoA);
+                            break;
+                        case 'B':
+                            estudiante = buscarEstudiantePorId(id_estudiante, grupoB);
+                            break;
+                        case 'C':
+                            estudiante = buscarEstudiantePorId(id_estudiante, grupoC);
+                            break;
+                        default:
+                            cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                            cout << "\nGrupo invalido, seleccione una opcion correcta..." << endl;
+                            cout << "Presione enter, para continuar...";
+                            cin.get();
+                            system("cls");
+                            break;
                         }
-                        else if (group_switch == 'B')
-                        {
-                            actualizarArchivo("Group_B.txt", grupoB);
-                        }
-                        else if (group_switch == 'C')
-                        {
-                            actualizarArchivo("Group_C.txt", grupoC);
-                        }
-                        cout << "\nLos datos se han modificado correctamente." << endl;
                     }
-                    else
+                }
+
+                if (estudiante != nullptr)
+                {
+                    modificarDatoEstudiante(estudiante);
+                    if (group_switch == 'A')
                     {
-                        cout << "Estudiante no encontrado." << endl;
+                        actualizarArchivo("Group_A.txt", grupoA);
                     }
+                    else if (group_switch == 'B')
+                    {
+                        actualizarArchivo("Group_B.txt", grupoB);
+                    }
+                    else if (group_switch == 'C')
+                    {
+                        actualizarArchivo("Group_C.txt", grupoC);
+                    }
+                    cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                    cout << "\nLos datos se han modificado correctamente." << endl;
+                    cout << "Presione enter, para continuar...";
+                    cin.get();
+                    system("cls");
                 }
                 else
                 {
-                    cout << "\nID invalido. Ingrese un numero de 5 digitos.\n"
-                         << endl;
-                }
+                    cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                    cout << "\nEstudiante no encontrado." << endl;
+                    cout << "Presione enter, para continuar...";
+                    cin.ignore();
+                    cin.get();
 
-                cout << "\nPresione 's' para salir de este menú o cualquier otra tecla para ingresar de nuevo el ID: ";
-                cin >> opcion;
-                system("cls"); // Limpiar la pantalla
-            } while (tolower(opcion) != 's');
+                    system("cls");
+                }
+            }
+            else
+            {
+                cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                cout << "\nID invalido. Ingrese un numero de 5 digitos.\n";
+                cout << "Presione enter, para continuar...";
+                cin.get();
+                system("cls");
+            }
+            system("cls"); // Limpiar la pantalla
 
             break;
         }
