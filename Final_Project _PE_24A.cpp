@@ -841,8 +841,6 @@ int main()
                     {
                         actualizarArchivo("Group_C.txt", grupoC);
                     }
-                    cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
-                    cout << "\nLos datos se han modificado correctamente." << endl;
                     cout << "Presione enter, para continuar...";
                     cin.get();
                     system("cls");
