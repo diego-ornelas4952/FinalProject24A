@@ -535,7 +535,8 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
     cout << "c. Mostrar calificaciones de una materia para todos los estudiantes" << endl;
     cout << "d. Mostrar todos los estudiantes registrados en todos los grupos" << endl;
     cout << "Ingrese su opción: ";
-    cin >> opcion;
+    if (validarEntradaChar(opcion))
+    {
     opcion = tolower(opcion); // Convertir la opción a minúscula
 
     cin.ignore(); // Limpiar el buffer de entrada
@@ -598,11 +599,11 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
                 cout << "NOMBRE DEL PARIENTE: \t\t" << estudiante->familiar.nombre << " " << estudiante->familiar.apellido_paterno << " " << estudiante->familiar.apellido_materno << endl;
                 cout << "VINCULO FAMILIAR: \t\t\t" << estudiante->familiar.vinculo_familiar << endl;
                 cout << "NUMERO DE TELEFONO: \t\t" << estudiante->familiar.numero_telefono << endl;
-                cout << "PROMEDIO DE CALIFICACIONES: \t" << calcular_promedio() << " (" << obtener_leyenda_promedio() << ")" << endl;
                 cout << "\n\t\t\tCALIFICACIONES\n";
                 for (int i = 0; i < Estudiante::num_materias; ++i) {
                     cout << estudiante->materias[i] << ": \t\t" << estudiante->calificaciones[i] << endl;
                 }
+                cout << "PROMEDIO DE CALIFICACIONES: \t" << estudiante->calcular_promedio() << " (" << estudiante->obtener_leyenda_promedio() << ")" << endl;
             } else {
                 cout << "Estudiante con ID " << id << " no encontrado." << endl;
             }
@@ -694,6 +695,7 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
         }
         default:
             cout << "Opción inválida." << endl;
+    }
     }
 }
 void eliminarEstudiantePorId(int id, vector<Estudiante> &grupo, const string &filename)
