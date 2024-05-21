@@ -734,6 +734,7 @@ int main()
         cout << "\t1. Agregar estudiantes" << endl;
         cout << "\t2. Buscar datos de estudiantes" << endl;
         cout << "\t3. Modificar datos de estudiantes" << endl;
+        cout << "\t4. Borrar datos de un estudiante" << endl;
         cout << "\t5. Vaciar bases de datos" << endl;
         cout << "\t6. Salir" << endl;
         cout << "Seleccione una opcion: ";
