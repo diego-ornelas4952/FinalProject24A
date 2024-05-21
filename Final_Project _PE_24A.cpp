@@ -143,7 +143,7 @@ struct Estudiante
                 }
                 else
                 {
-                    cout << "La calificación debe ser un número entre 0 y 100. Inténtalo de nuevo: ";
+                    cout << "La calificación debe ser un numero entre 0 y 100. Intentalo de nuevo: ";
                     cin.clear(); // Limpiar el error
                     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Descartar la entrada inválida
                 }
@@ -540,12 +540,12 @@ void vaciardatos(vector<Estudiante> &grupo, const string &nombreArchivo)
 //Función para imprimir y mostrar los datos del estudiante registrado
 void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>& grupoB, const vector<Estudiante>& grupoC) {
     char opcion;
-    cout << "Seleccione una opción para mostrar detalles:" << endl;
+    cout << "Seleccione una opcion para mostrar detalles:" << endl;
     cout << "a. Mostrar detalles de un estudiante por ID" << endl;
     cout << "b. Mostrar todos los estudiantes de un grupo" << endl;
     cout << "c. Mostrar calificaciones de una materia para todos los estudiantes" << endl;
     cout << "d. Mostrar todos los estudiantes registrados en todos los grupos" << endl;
-    cout << "Ingrese su opción: ";
+    cout << "Ingrese su opcion: ";
     if (validarEntradaChar(opcion))
     {
     opcion = tolower(opcion); // Convertir la opción a minúscula
@@ -556,17 +556,26 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
         case 'a': {
             string input;
             int id;
+            string id_input;
             bool valido = false;
 
             while (!valido) {
                 cout << "Ingrese el ID del estudiante que desea ver: ";
-                cin >> input;
+                //cin >> input;
+                cin >> id_input;
+
+                while(!validarID(id_input)){
+                    cout << "ID invalido. Por favor, ingrese un numero: ";
+                    cin >> id_input;
+                }
+
+                input = stoi(id_input);
 
                 valido = all_of(input.begin(), input.end(), ::isdigit);
                 if (valido) {
                     id = stoi(input);
                 } else {
-                    cout << "ID inválido. Por favor, ingrese un número." << endl;
+                    cout << "ID invalido. Por favor, ingrese un numero." << endl;
                 }
             }
 
@@ -638,7 +647,7 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
                     grupo_estudiantes = &grupoC;
                     break;
                 default:
-                    cout << "Grupo inválido." << endl;
+                    cout << "Grupo invalido." << endl;
                     return;
             }
 
@@ -658,11 +667,11 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
                 cout << i + 1 << ". " << Estudiante().materias[i] << endl;
             }
             int materia_index;
-            cout << "Ingrese el número de la materia: ";
+            cout << "Ingrese el numero de la materia: ";
             cin >> materia_index;
 
             if (materia_index < 1 || materia_index > Estudiante::num_materias) {
-                cout << "Materia inválida." << endl;
+                cout << "Materia invalida." << endl;
                 return;
             }
 
@@ -705,7 +714,7 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
             break;
         }
         default:
-            cout << "Opción inválida." << endl;
+            cout << "Opcion invalida." << endl;
     }
     }
 }
@@ -745,6 +754,7 @@ int main()
         cout << "\t1. Agregar estudiantes" << endl;
         cout << "\t2. Buscar datos de estudiantes" << endl;
         cout << "\t3. Modificar datos de estudiantes" << endl;
+        cout << "\t4. Eliminar datos de estudiantes" << endl;
         cout << "\t5. Vaciar bases de datos" << endl;
         cout << "\t6. Salir" << endl;
         cout << "Seleccione una opcion: ";
