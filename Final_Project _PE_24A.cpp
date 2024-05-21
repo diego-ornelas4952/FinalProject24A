@@ -13,6 +13,7 @@
 #include <cctype>
 #include <sstream>
 #include <algorithm> // Para transform
+#include <limits>
 using namespace std;
 
 // Estructura para representar a un familiar
