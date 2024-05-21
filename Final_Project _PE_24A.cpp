@@ -489,8 +489,6 @@ void vaciardatos(vector<Estudiante> &grupo, const string &nombreArchivo)
         cout << "Error al abrir el archivo " << nombreArchivo << " para eliminar los datos." << endl;
     }
 }
-bool ciclo = true;
-char op_switch, group_switch;
 
 //Función para imprimir y mostrar los datos del estudiante registrado
 void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>& grupoB, const vector<Estudiante>& grupoC) {
@@ -661,13 +659,31 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
             cout << "Opción inválida." << endl;
     }
 }
-
-
+void eliminarEstudiantePorId(int id, vector<Estudiante> &grupo, const string &filename)
+{
+    auto it = remove_if(grupo.begin(), grupo.end(), [id](const Estudiante &estudiante)
+                        { return estudiante.id == id; });
+    if (it != grupo.end())
+    {
+        grupo.erase(it, grupo.end());
+        actualizarArchivo(filename, grupo);
+        cout << "Estudiante eliminado correctamente." << endl;
+        cout<<"Presione enter para continuar...";
+        cin.ignore();
+        cin.get();
+        system("cls");
+    }
+    else
+    {
+        cout << "Estudiante no encontrado." << endl;
+    }
+}
 
 int main()
 {
     vector<Estudiante> grupoA, grupoB, grupoC;
-
+        bool ciclo = true;
+        char group_switch;
     // Cargar datos desde los archivos
     cargar_datos("Group_A.txt", grupoA);
     cargar_datos("Group_B.txt", grupoB);
@@ -682,9 +698,20 @@ int main()
         cout << "\t5. Vaciar bases de datos" << endl;
         cout << "\t6. Salir" << endl;
         cout << "Seleccione una opcion: ";
-        cin >> op_switch;
-        system("cls");
+       string op_switch_input;
+        cin >> op_switch_input;
+        if (op_switch_input.length() != 1 || !isdigit(op_switch_input[0]))
+        {
+            cout << "Opcion invalida, seleccione una opcion correcta..." << endl;
+            cout << "Presione enter, para continuar...";
+            cin.ignore();
+            cin.get();
+            system("cls");
+            continue;
+        }
 
+        char op_switch = op_switch_input[0];
+        system("cls");
         switch (op_switch)
         {
         case '1': // Case 1: Agregar estudiantes
@@ -829,6 +856,59 @@ int main()
             }
             system("cls"); // Limpiar la pantalla
 
+            break;
+        }
+                case '4':
+        {
+            cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+            cout << "\nIngrese el ID del estudiante a eliminar: ";
+            string input_id;
+            getline(cin >> ws, input_id);
+            system("cls");
+            if (validarId(input_id))
+            {
+                int id_estudiante = stoi(input_id);
+                cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                cout << "\nIngrese el grupo del estudiante (A, B, C): ";
+                if (validarEntradaChar(group_switch))
+                {
+                    system("cls");
+                    if (isalpha(group_switch) && islower(group_switch))
+                    {
+                        group_switch = toupper(group_switch);
+                    }
+
+                    if (isalpha(group_switch))
+                    {
+                        switch (group_switch)
+                        {
+                        case 'A':
+                            eliminarEstudiantePorId(id_estudiante, grupoA, "Group_A.txt");
+                            break;
+                        case 'B':
+                            eliminarEstudiantePorId(id_estudiante, grupoB, "Group_B.txt");
+                            break;
+                        case 'C':
+                            eliminarEstudiantePorId(id_estudiante, grupoC, "Group_C.txt");
+                            break;
+                        default:
+                            cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                            cout << "\nGrupo invalido, seleccione una opcion correcta..." << endl;
+                            cout << "Presione enter, para continuar...";
+                            cin.get();
+                            break;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+                cout << "\nID invalido. Ingrese un numero de 5 digitos.\n";
+                cout << "Presione enter, para continuar...";
+                cin.get();
+                system("cls");
+            }
             break;
         }
         case '5':
