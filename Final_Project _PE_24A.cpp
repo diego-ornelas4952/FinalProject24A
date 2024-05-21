@@ -205,9 +205,14 @@ bool validarEntradaChar(char &opcion)
     if (cin.peek() != '\n' || !isupper(opcion) && !islower(opcion))
     {
         system("cls");
-        cout << "ERROR. Solo se puede ingresar un caracter." << endl;
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
+        cout << "\nERROR. Solo se puede ingresar un caracter." << endl;
+        cout << "Presione enter para continuar...";
+
         // Limpiar el búfer de entrada
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        cin.get();
+        system("cls");
         return false;
     }
     // Si se ingresó un caracter válido, devolver true
@@ -236,6 +241,8 @@ void modificarDatoEstudiante(Estudiante *estudiante)
     char opcion;
     do
     {
+
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management" << endl;
         cout << "\nSeleccione el dato que desea modificar: " << endl;
         cout << "a. Nombre del estudiante" << endl;
         cout << "b. Apellido paterno del estudiante" << endl;
@@ -256,50 +263,71 @@ void modificarDatoEstudiante(Estudiante *estudiante)
     switch (opcion)
     {
     case 'a':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo nombre del estudiante: ";
         getline(cin, estudiante->nombre);
         break;
     case 'b':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo apellido paterno del estudiante: ";
         getline(cin, estudiante->apellido_paterno);
         break;
     case 'c':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo apellido materno del estudiante: ";
         getline(cin, estudiante->apellido_materno);
         break;
     case 'd':
     {
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo ID del estudiante: ";
         string input_id;
         getline(cin >> ws, input_id);
         if (validarId(input_id))
         {
-           estudiante->id = stoi(input_id);
+            estudiante->id = stoi(input_id);
         }
         else
         {
             cout << "ID invalido. Ingrese un numero." << endl;
+            cout << "Presione enter para continuar...";
+            cin.get();
+            system("cls");
             return;
         }
         break;
     }
     case 'e':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo nombre del pariente: ";
         getline(cin, estudiante->familiar.nombre);
         break;
     case 'f':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo apellido paterno del pariente: ";
         getline(cin, estudiante->familiar.apellido_paterno);
         break;
     case 'g':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo apellido materno del pariente: ";
         getline(cin, estudiante->familiar.apellido_materno);
         break;
     case 'h':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo vinculo familiar: ";
         getline(cin, estudiante->familiar.vinculo_familiar);
         break;
     case 'i':
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Nuevo numero de telefono: ";
         getline(cin, estudiante->familiar.numero_telefono);
         break;
@@ -307,7 +335,13 @@ void modificarDatoEstudiante(Estudiante *estudiante)
         estudiante->ingresar_calificaciones();
         break;
     default:
+        cout << "UndaPRO by UdeG\t\t\t\t\t\t\tUniversity Professional Data Management○\n"
+             << endl;
         cout << "Opcion invalida." << endl;
+        cout << "Presione enter para continuar...";
+        cin.get();
+        system("cls");
+        break;
     }
 }
 //Función para actualizar los datos de un estudiante
