@@ -143,7 +143,7 @@ struct Estudiante
                 }
                 else
                 {
-                    cout << "La calificación debe ser un numero entre 0 y 100. Intentalo de nuevo: ";
+                    cout << "La calificacion debe ser un numero entre 0 y 100. Intentalo de nuevo: ";
                     cin.clear(); // Limpiar el error
                     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Descartar la entrada inválida
                 }
@@ -292,7 +292,7 @@ Estudiante obtenerDatosEstudiante(char grupo)
     cout << "Apellido materno del estudiante: ";
     cin >> estudiante.apellido_materno;
     string id_input;
-    cout << "ID del estudiante: ";
+    cout << "ID del estudiante (5 DIGITOS): ";
     cin >> id_input;
     // Validar que el ID no haya sido previamente ingresado
     while ((idExiste(id_input, grupoA) || idExiste(id_input, grupoB) || idExiste(id_input, grupoC)) && validarID(id_input))
@@ -569,7 +569,7 @@ void mostrarDetalles(const vector<Estudiante>& grupoA, const vector<Estudiante>&
                     cin >> id_input;
                 }
 
-                input = stoi(id_input);
+                input = id_input;
 
                 valido = all_of(input.begin(), input.end(), ::isdigit);
                 if (valido) {
